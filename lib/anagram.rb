@@ -11,7 +11,7 @@ class Anagram
       if new_array.include?(words)
         new_array << words
       else
-        new_array.  words.reverse_each { |words| }select do |words|
+        new_array.select do |words|  words.reverse_each { |words| }
       
       end
    end 
