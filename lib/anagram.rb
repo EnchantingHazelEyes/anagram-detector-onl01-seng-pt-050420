@@ -12,7 +12,7 @@ class Anagram
         new_array << words
       else
         new_array.select do |words|
-        new_array.reverse_each { |words| }
+        words.reverse_each { |words| }
       end
    end 
   end 
