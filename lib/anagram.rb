@@ -11,7 +11,7 @@ class Anagram
     if new_array.include?(words)
       new_array << words
     else #new_array.reject!
-      words.reverse_each
+      new_array.reverse_each 
      end 
   end 
 
