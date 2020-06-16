@@ -12,8 +12,7 @@ class Anagram
         new_array << words
       else
         new_array.reverse_each {|words| str += "#{words} "}
-      #else
-        new_array
+        words
    end 
   end 
 
