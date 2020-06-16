@@ -11,7 +11,7 @@ class Anagram
     if new_array.include?(words)
      new_array << words
     elsif 
-     new_array
+     new_array.re
    end 
   end 
 
