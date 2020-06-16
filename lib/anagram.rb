@@ -10,8 +10,8 @@ class Anagram
     new_array = []
       if new_array.include?(words)
         new_array << words
-      else
-        new_array.select do |words|  words.reverse_each { |words| }
+      elsif new_array.reject?
+        
       
       end
    end 
