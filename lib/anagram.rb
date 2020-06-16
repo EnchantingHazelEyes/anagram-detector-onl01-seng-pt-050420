@@ -7,11 +7,8 @@ class Anagram
   end 
   
   def match(words)
-    new_array = []
-    if new_array.include?(words)
-      new_array << words
-    else #new_array.reject!
-      new_array.reverse_each 
+    word_array.select do |word|
+      word.split("").sort == @word.split("").sort
      end 
   end 
 
