@@ -10,7 +10,7 @@ class Anagram
     new_array = []
     if new_array.include?(words)
       new_array << words
-    elsif new_array.reject?
+    elsif new_array.reject!
       new_array.reverse
      end 
   end 
