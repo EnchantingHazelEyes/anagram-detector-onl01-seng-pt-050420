@@ -8,7 +8,11 @@ class Anagram
   
   def match(words)
     new_array = []
-    new_array << words
+    if new_array.include?
+     new_array << words
+    else
+     new_array
+   end 
   end 
 
 end 
