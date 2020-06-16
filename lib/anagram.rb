@@ -10,7 +10,7 @@ class Anagram
     new_array = []
       if new_array.include?(words)
         new_array << words
-      else 
+      elsif new_array.select.
         new_array.reverse_each { |words| }
    end 
   end 
